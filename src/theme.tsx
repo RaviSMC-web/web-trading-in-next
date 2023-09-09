@@ -11,7 +11,7 @@ interface ThemeProp {
   children: React.ReactNode;
 }
 
-const getPalletFromTheme = (theme = "dark"): ThemeOptions => {
+const getPalletFromTheme = (theme = "light"): ThemeOptions => {
   if (theme === "dark") {
     return {
       palette: {
